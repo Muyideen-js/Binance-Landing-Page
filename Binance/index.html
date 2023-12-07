@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binance</title>
+    <link rel="shortcut icon" href="./img/bitcoin-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Russo+One&family=Secular+One&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div id="bg" style="overflow:hidden;">
+        <nav>
+            <div class="logo
+            ">
+                <img src="/img/bitcoin-removebg-preview.png" alt="">
+                <h1>Binance</h1>
+            </div>
+            <ul>
+                <li class="first-anim"><a href="" class="active">Home</a></li>
+                <li class="second-anim"><a href="">Features</a></li>
+                <li class="third-anim"><a href="">Product</a></li>
+                <li class="fourth-anim"><a href="">FAQ</a></li>
+                <li class="five-anim"><a href="">Contact</a></li>
+                <button><a href="./Login.html">Login</a></button>
+                <!-- <div id="the-basics">
+                        <input class="typeahead" type="text" placeholder="Choose Countries">
+                      </div> -->
+
+            </ul>
+        </nav>
+        <div class="bdy">
+            <div class="text">
+                <h1>Let's <span style="color: gold;">make</span><br> <span style="color: gold;">better</span> life
+                    with<br> new <span style="color: gold;" class="change">Currency.</span> </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Cum laboriosam aliquam excepturi,</p>
+                <button id="start"><a href="">Get started</a></button>
+                <button id="vid"><a href="">Watch video</a></button>
+            </div>
+            <div class="right-image">
+                <img src="/img/3-removebg-preview.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="feauters">
+        <h2>Features that <span style="color: gold;">we offers for you.</span></h2>
+        <div class="boxs">
+            <div class="relative">
+                <div class="box">
+                    <img src="/img/eth.svg" alt="">
+                    <h1>Ethereum</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laudantium similique beatae
+                        consequatur
+                        ? </p>
+                    <span>Click to watch</span>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="box">
+                    <img src="/img/lg-removebg-preview.png" alt="">
+                    <h1>BNB</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laudantium similique beatae
+                        consequatur
+                        ducimus numquam maiores? </p>
+                    <span>Click to watch</span>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="box">
+                    <img src="/img/bitcoin-removebg-preview.png" alt="">
+                    <h1>BITCOIN</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laudantium similique beatae
+                        consequatur
+                        ducimus numquam maiores? </p>
+                    <span>Click to watch</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mining">
+        <div class="left-img">
+            <img src="/img/1st img.png" alt="">
+        </div>
+        <div class="letter">
+            <h1>BEST MINING <span style="color:gold;">SOLUTION.</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam<br> consequatur incidunt
+                tenetur veniam unde ex officia tempore veritatis dolore,<br> quaerat dignissimos itaque eius tempora
+                quis vel autem, provident eligendi.</p>
+            <button><a href="">Learn more</a></button>
+        </div>
+    </div>
+
+    <div class="mining">
+
+        <div class="letter" style="margin-left: 30px;">
+            <h1>HOW BLOCKCHAIN <span style="color:gold;">WORKS.</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam<br> consequatur incidunt
+                tenetur veniam unde ex officia tempore veritatis dolore,<br> quaerat dignissimos itaque eius tempora
+                quis vel autem, provident eligendi.</p>
+            <button><a href="">Watch tutorial</a></button>
+        </div>
+        <div class="left-img">
+            <img src="/img/2nd img.png" alt="" width="100%" style="padding-top:100px;">
+        </div>
+    </div>
+    <section>
+        <div class="top">
+            <h1>Frequently ask <span style="color: gold;">Questions?</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Error provident quo quas? </p>
+        </div>
+       
+        <div class="questions">
+            <div class="question" id="question">
+                <h1 id="main">Lorem ipsum dolor sit amet consectetur adipisicing elit. <span id="show" style="font-size: 10px;  ">Show</span></h1>
+                <h4 id="answer"><em>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, error officiis voluptatibus rem molestiae minima. Quis, vitae voluptates error veritatis beatae ipsum perspiciatis minus consequatur, aliquid consectetur placeat doloribus numquam?</em></h4>
+                
+            </div>
+        </div>
+
+    </section>
+        
+
+
+
+
+
+    <script>
+        let main = document.getElementById("main");
+        let answer = document.getElementById("answer");
+        let show = document.getElementById("show");
+        let question = document.getElementById("question");
+
+           show.addEventListener("click", () => {
+            if (answer.style.display === "block") {
+                answer.style.display = "none";
+                question.style.height = "30px";
+                show.textContent = "Show";
+                main.style.borderBottom = "none";
+
+
+            } else {
+                answer.style.display = "block";
+                question.style.height = "130px";
+                show.textContent = "Hide";
+                answer.style.paddingLeft = "30px";
+            }
+        });
+
+
+        let maintwo = document.getElementById("maintwo");
+        let answertwo = document.getElementById("answertwo");
+        let showtwo = document.getElementById("showtwo");
+        let questiontwo = document.getElementById("questiontwo");
+
+           show.addEventListener("click", () => {
+            if (answertwo.style.display === "block") {
+                answertwo.style.display = "none";
+                questiontwo.style.height = "30px";
+                showtwo.textContent = "Show";
+                maintwo.style.borderBottom = "none";
+
+
+            } else {
+                answertwo.style.display = "block";
+                questiontwo.style.height = "130px";
+                showtwo.textContent = "Hide";
+                answertwo.style.paddingLeft = "30px";
+            }
+        });
+
+
+
+        var type = new Type(".change", {
+            strings: ["Fund", "Monetary", "Finances", "Capital"],
+            typeSpeed: 70,
+            backSpeed: 20,
+            loop: true
+        })
+        AOS.init();
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script type="text/javascript" src="/particles.js"></script>
+    <script type="text/javascript" src="/app.js"></script>
+    <script src="/typeahead.bundle.js"></script>
+
+</body>
+
+</html>
